@@ -1,0 +1,59 @@
+.container .box {
+    position: relative;
+    background-color: #fff;
+    width: 100%;
+    padding: 30px;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin: 0 auto;
+  }
+  
+  .container .box .image-container {
+    position: relative;
+    width: 100%;
+    min-height: 400px;
+    max-height: 500px;
+    border-radius: 4px;
+    background: linear-gradient(45deg, #f3f3f3, silver);
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+  
+  .container .box .image {
+    width: 100%;
+    object-fit: cover;
+    z-index: 999;
+    overflow: hidden;
+  }
+  
+  .container .box .input-file {
+    display: none;
+  }
+  
+  .container .box label {
+    position: relative;
+    padding: 15px 20px;
+    background-color: royalblue;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .container .box label i {
+    margin-right: 10px;
+  }
+  
+  @media only screen and (max-width: 768px) {
+    
+    .container .box {
+      width: 100%;
+      margin: 20px auto;
+    }
+    
+  }
